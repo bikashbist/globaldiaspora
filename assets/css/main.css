@@ -2515,11 +2515,11 @@ a.btn.btn-inquire:hover {
     color: #fe0000;
 }
 
-.process-one__text {
+/* .process-one__text {
     font-size: 14px;
     font-weight: 500;
     line-height: 26px;
-}
+} */
 
 .process-one__step {
     position: relative;
@@ -6637,7 +6637,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .testimonail-area .owl-carousel .owl-dots {
     position: absolute;
     left: 50%;
-    bottom: -80px;
+    bottom: -36px;
     transform: translateX(-50%);
     display: flex;
 }

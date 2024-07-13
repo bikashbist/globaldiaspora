@@ -382,15 +382,15 @@
 
     // owlCarousel
     $(".textimonail-active").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 30,
-        items: 3,
+        items: 2,
         navText: [
             '<i class="fal fa-long-arrow-left"></i>',
             '<i class="fal fa-long-arrow-right"></i>'
         ],
         nav: false,
-        dots: false,
+        dots: true,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: false,
@@ -402,7 +402,7 @@
                 items: 2
             },
             992: {
-                items: 3
+                items: 2
             }
         }
     });
